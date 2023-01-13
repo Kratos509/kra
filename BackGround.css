@@ -4,7 +4,6 @@ body {
     overflow: hidden;
     display: grid;
     height: 100%;
-    max-width: 100%;
     max-height: 100vh;
     margin: auto;
     margin: 0;
@@ -16,3 +15,81 @@ body {
   background-size: 120%;
   
   }
+#myGithubLink a {
+  position: absolute;
+  bottom:50%;
+  text-align:center;
+  font-size:150%;
+  }
+  
+  #myGithubLink a:hover {font-size:200%;}
+
+  #myGithubLink a:link {
+    text-decoration: none;
+  }
+  
+  #myGithubLink a:visited {
+    text-decoration: none;
+  }
+  #myGithubLink a:link {
+    color: #ecece8;
+  }
+  
+  /* visited link */
+  #myGithubLink a:visited {
+    color: #ecece8;
+  }
+  
+div#myDiscord span#myDiscordIdOn{
+  display:inline;
+  position: absolute;
+  bottom:45%;
+  text-align:center;
+  font-size:150%; 
+  color: #ecece8;
+  }
+  div#myDiscord:hover span#myDiscordIdOn{
+    font-size:200%;
+    display:none;
+    cursor: crosshair;}
+
+  div#myDiscord span#myDiscordIdOut{
+    display:none;
+    font-size:150%; 
+    }
+    div#myDiscord:hover span#myDiscordIdOut{
+      display:inline;
+      cursor: crosshair;
+      position: absolute;
+      bottom:45%;
+      text-align:center;
+      font-size:200%;
+    color: #ecece8; }
+
+  /* #myDiscordId  a:link {
+    text-decoration: none;
+    text-decoration-line:overline("yoo");
+  } */
+  
+  /* #myDiscordId  a:visited {
+    text-decoration: none;
+  } */
+  /* #myDiscordId  a:link {
+    color: #ecece8;
+
+  } */
+  
+  
+  /* visited link */
+  /* #myDiscordId  a:visited {
+    color: #ecece8;
+    
+  } */
+p {
+  color:whitesmoke;
+  position: absolute;
+  bottom:0;
+  
+  text-align:center;
+  width: 100%;
+}
